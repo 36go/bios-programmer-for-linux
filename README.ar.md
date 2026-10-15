@@ -70,8 +70,8 @@ sudo apt install fpc lazarus libusb-dev libgtk2.0-dev python3
 ## البناء من المصدر
 
 ```bash
-git clone https://github.com/36go/bios-programmer-for-linux-.git
-cd bios-programmer-for-linux-/src
+git clone https://github.com/36go/bios-programmer-for-linux.git
+cd bios-programmer-for-linux/src
 
 # (مرة واحدة) ثبّت حزم Lazarus الثلاث المطلوبة، مثال:
 #   lazbuild --add-package-link /usr/lib/lazarus/*/components/synedit/synedit.lpk
@@ -162,7 +162,7 @@ UPSTREAM=/path/to/AsProgrammer/software ./tools/apply_shims.sh ./src
 
 ```bash
 # ١. اعمل Fork ثم استنساخ
-git clone https://github.com/<you>/bios-programmer-for-linux-.git
+git clone https://github.com/<you>/bios-programmer-for-linux.git
 # ٢. أنشئ فرعًا
 git checkout -b feature/my-fix
 # ٣. ابنِ واختبر

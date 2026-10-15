@@ -70,8 +70,8 @@ sudo apt install fpc lazarus libusb-dev libgtk2.0-dev python3
 ## Build from source
 
 ```bash
-git clone https://github.com/36go/bios-programmer-for-linux-.git
-cd bios-programmer-for-linux-/src
+git clone https://github.com/36go/bios-programmer-for-linux.git
+cd bios-programmer-for-linux/src
 
 # (first time only) install the three required Lazarus packages, e.g.:
 #   lazbuild --add-package-link /usr/lib/lazarus/*/components/synedit/synedit.lpk
@@ -162,7 +162,7 @@ How to contribute:
 
 ```bash
 # 1. Fork and clone
-git clone https://github.com/<you>/bios-programmer-for-linux-.git
+git clone https://github.com/<you>/bios-programmer-for-linux.git
 # 2. Create a branch
 git checkout -b feature/my-fix
 # 3. Build & test
