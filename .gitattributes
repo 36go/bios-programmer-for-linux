@@ -1,0 +1,25 @@
+# Normalize line endings; keep text sources LF on every platform.
+* text=auto
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.pas  text eol=lf
+*.pp   text eol=lf
+*.p    text eol=lf
+*.lpr  text eol=lf
+*.lpi  text eol=lf
+*.lfm  text eol=lf
+*.inc  text eol=lf
+*.xml  text eol=lf
+*.po   text eol=lf
+*.txt  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.res  binary

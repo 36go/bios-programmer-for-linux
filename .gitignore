@@ -1,0 +1,29 @@
+# ---- Lazarus / Free Pascal build artifacts ----
+src/lib/
+*.o
+*.ppu
+*.or
+*.compiled
+*.res.tmp
+
+# ---- Built binary & IDE session files ----
+src/AsProgrammer
+src/AsProgrammer.lps
+*.exe
+*.dll
+
+# ---- FPC resource / section dumps (regenerated) ----
+.bss
+.data
+.idata
+.text
+.rsrc/
+
+# ---- Editor / OS cruft ----
+*.bak
+*.~*
+*.swp
+*~
+Thumbs.db
+.DS_Store
+desktop.ini
