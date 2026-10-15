@@ -9,7 +9,9 @@ A **native Linux port of [AsProgrammer / NeoProgrammer](https://github.com/nofel
 
 The original project talks to the hardware through Windows DLLs (`CH341DLL.DLL`, `CH347DLL.DLL`, `FTD2XX.DLL`). This port **removes the DLL dependency and re-implements the CH341 backend directly on `libusb`**, so it builds and runs on Linux (including WSL2 with WSLg) with the same GUI and the same `chiplist.xml`/settings model.
 
-![BIOS Programmer for Linux running under WSLg](images.png)
+<p align="center">
+  <img src="images.png" alt="BIOS Programmer for Linux running under WSLg" width="480">
+</p>
 
 ---
 
